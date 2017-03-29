@@ -1,0 +1,49 @@
+.home {
+  .carousel-caption {
+    background: #fff;
+    opacity: .5;
+    color: #000;
+  }
+
+  .card-container {
+    width: 100%;
+    background: #F2F4F5;
+    height: 440px;
+    .card {
+      width: 25%;
+      padding-top: 25px;
+      border: 1px solid #ebebeb;
+      float: left;
+      text-align: center;
+      height: 220px;
+      overflow: hidden;
+      p {
+        color: #C0C2C2;
+      }
+      h2 {
+        color: #000;
+        font-size: 17px;
+        font-weight: 700;
+      }
+      img {
+        width: 110px;
+        margin-top: 10px;
+        transition: all .4s;
+        -ms-transition:all .4s;/* IE 9 */
+        -moz-transition:all .4s;  /* Firefox */
+        -webkit-transition:all .4s; /* Safari 和 Chrome */
+        -o-transition:all .4s;  /* Opera */
+      }
+    }
+  }
+  .card:hover {
+    img {
+      transform:rotate(7deg);
+      -ms-transform:rotate(7deg);   /* IE 9 */
+      -moz-transform:rotate(7deg);  /* Firefox */
+      -webkit-transform:rotate(7deg); /* Safari 和 Chrome */
+      -o-transform:rotate(7deg);  /* Opera */
+
+    }
+  }
+}
